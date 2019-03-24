@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.home {
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-name: aparecer;}
+
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
